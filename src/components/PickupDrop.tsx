@@ -400,7 +400,7 @@ Please confirm availability and provide quotation. Thank you! 🙏`;
               
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.4234567890123!2d79.4192!3d13.6288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDM3JzQ0LjciTiA3OcKwMjUnMDkuMSJF!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7754.93694842216!2d79.41922199867899!3d13.629242747525815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sm%20prasanthi%2022-8-207%2F1%2Fc%20upadyaya%20nagar%20revenue%20ward%20no%2022%20tirupati%20517507!5e0!3m2!1sen!2sin!4v1756387053285!5m2!1sen!2sin"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}

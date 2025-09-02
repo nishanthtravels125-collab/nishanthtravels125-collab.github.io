@@ -9,7 +9,7 @@ const TripPackages = () => {
   };
 
   const packages = [
-     {
+    {
       id: 2,
       title: "Tirumala One Day Darshan",
       price: "₹3,500",
@@ -43,7 +43,6 @@ const TripPackages = () => {
           places: ["Sri Vasavi Mangapuram", "Kanipakam", "Golden Temple", "Arunachlam"],
           stay: "Night Halt"
         },
-       
         {
           day: "DAY 2",
           places: ["Tiruthani", "Srikalahasti"],
@@ -54,8 +53,6 @@ const TripPackages = () => {
       excludes: ["Driver Food (to be provided by customer)"],
       popular: true
     },
-   
-   
     {
       id: 4,
       title: "Tirupati to Arunachalam Taxi Package",
@@ -90,9 +87,9 @@ const TripPackages = () => {
     {
       id: 5,
       title: "Tirupati to Golden Temple Taxi Package",
-      price: "₹5,000",
+      price: "₹9,500",
       originalPrice: "",
-      duration: "1 Day",
+      duration: "2 Days",
       vehicle: "Swift Dzire / Etios / Innova (as per group size)",
       pickup: "Tirupati",
       image: "https://wallpapers.com/images/featured/golden-temple-hd-6rp8cxk91fvj9ksx.jpg",
@@ -105,7 +102,17 @@ const TripPackages = () => {
             "Golden Temple",
             "Return Drop at Tirupati"
           ],
-          stay: "Same Day Return"
+          stay: "Night Halt"
+        },
+        {
+          day: "DAY 2",
+          places: [
+            "Kanchipuram Temples: Vishnu Kanchi, Shiva Kanchi, Kanchi Kamakshi Amman Temple",
+            "Shopping (optional)",
+            "Tiruttani Temple",
+            "Return Drop at Tirupati"
+          ],
+          stay: "tirupathi Day Return"
         }
       ],
       includes: [

@@ -44,7 +44,8 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">Office Address</h4>
                   <p className="text-gray-600 text-sm sm:text-base">
-                    Balaji Colony, Railway Station,<br />
+                    M Prasanthi
+22-8-207/1/C, Upadyaya Nagar,Revenue Ward No 22,<br />
                     Tirupathi, Andhra Pradesh 517507
                   </p>
                   <p className="text-xs sm:text-sm text-gray-500">Visit us for in-person consultations</p>
@@ -57,7 +58,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">Business Hours</h4>
                   <p className="text-gray-600 text-sm sm:text-base">
-                    Monday - Sunday: 6:00 AM - 10:00 PM<br />
+                    Opens 24 hours<br />
                     Emergency support: 24/7
                   </p>
                 </div>

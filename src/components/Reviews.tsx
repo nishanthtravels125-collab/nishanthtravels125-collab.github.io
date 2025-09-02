@@ -1,5 +1,5 @@
-import React from 'react';
-import { Star, Quote, ThumbsUp, MessageCircle, User } from 'lucide-react';
+import React, { useState } from 'react';
+import { Star, Quote, ThumbsUp, MessageCircle, User, ExternalLink } from 'lucide-react';
 
 const Reviews = () => {
   const reviews = [
@@ -87,11 +87,16 @@ const Reviews = () => {
     { stars: 1, count: 0, percentage: 0 }
   ];
 
+  const [googleReviewText, setGoogleReviewText] = useState('');
+
   const handleWhatsAppReview = () => {
     const message = `🙏 Hello`;
-
     const encodedMessage = encodeURIComponent(message);
     window.open(`https://wa.me/919704123338?text=${encodedMessage}`, '_blank');
+  };
+
+  const handleGoogleReview = () => {
+    window.open('https://g.page/r/CaIjS10oybgOEAI/review', '_blank');
   };
 
   return (
@@ -253,7 +258,7 @@ const Reviews = () => {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <button
               onClick={handleWhatsAppReview}
               className="bg-gradient-to-r from-green-600 to-green-700 text-white px-6 md:px-8 py-3 md:py-4 rounded-full hover:from-green-700 hover:to-green-800 transition-all duration-300 font-semibold flex items-center justify-center"
@@ -268,7 +273,18 @@ const Reviews = () => {
               <User className="w-5 h-5 mr-2" />
               Call to Share Review
             </a>
+            <a
+              href="https://g.page/r/CaIjS10oybgOEAI/review"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 md:px-8 py-3 md:py-4 rounded-full hover:from-blue-700 hover:to-blue-800 transition-all duration-300 font-semibold flex items-center justify-center"
+            >
+              <Star className="w-5 h-5 mr-2" />
+              Review on Google Maps
+            </a>
           </div>
+
+         
 
           <div className="mt-6 p-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-2xl">
             <p className="text-sm text-gray-700">

@@ -3,27 +3,7 @@ import { Phone, MessageCircle, MapPin, Star, Clock, Users, Award } from 'lucide-
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    const message = `🙏 Namaste! Welcome to Nishanth Travels!
-
-I'm interested in your travel packages. Please help me with:
-
-📍 *PACKAGE SELECTION:*
-□ Tirupati Darshan - 3 Days Package (₹15,200)
-□ Tirupati One Day Darshan (₹6,500) 
-□ South India Temple Tour - 7 Days (₹35,000)
-□ Custom Package
-
-👥 *TRAVEL DETAILS:*
-• Number of travelers: ___
-• Preferred dates: ___
-• Pickup location: ___
-
-🚗 *VEHICLE PREFERENCE:*
-□ Swift Dzire/Etios (4+1) - ₹12/km
-□ Toyota Innova (7+1) - ₹16/km  
-□ Tempo Traveller (12+1) - ₹20/km
-
-Please provide detailed itinerary and final pricing. Thank you! 🙏`;
+    const message = `🙏 Namaste`;
 
     const encodedMessage = encodeURIComponent(message);
     window.open(`https://wa.me/919704123338?text=${encodedMessage}`, '_blank');
@@ -112,7 +92,6 @@ Tour Packages: Tailored trips to temple towns like Arunachalam, Sri Kalahasti, K
                 <h3 className="text-lg lg:text-xl font-bold mb-2">Sri Venkateswara Temple</h3>
                 <p className="text-sm lg:text-base opacity-90">Experience divine blessings at the sacred hills of Tirumala</p>
               </div>
-              {/* Quick Contact Card removed */}
             </div>
 
             {/* Floating Elements */}
@@ -135,7 +114,7 @@ Tour Packages: Tailored trips to temple towns like Arunachalam, Sri Kalahasti, K
           <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
             <div className="aspect-w-16 aspect-h-9">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.4234567890123!2d79.4192!3d13.6288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDM3JzQ0LjciTiA3OcKwMjUnMDkuMSJF!5e0!3m2!1sen!2sin!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7754.93694842216!2d79.41922199867899!3d13.629242747525815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sm%20prasanthi%2022-8-207%2F1%2Fc%20upadyaya%20nagar%20revenue%20ward%20no%2022%20tirupati%20517507!5e0!3m2!1sen!2sin!4v1756387053285!5m2!1sen!2sin"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -152,12 +131,17 @@ Tour Packages: Tailored trips to temple towns like Arunachalam, Sri Kalahasti, K
                 <div>
                   <MapPin className="w-6 h-6 text-orange-600 mx-auto mb-2" />
                   <p className="font-semibold text-gray-800">Address</p>
-                  <p className="text-sm text-gray-600">Balaji Colony, Railway Station, Tirupathi, AP 517507</p>
+                  <p className="text-sm text-gray-600">
+                    M Prasanthi<br />
+                    22-8-207/1/C, Upadyaya Nagar,<br />
+                    Revenue Ward No 22,<br />
+                    Tirupati, 517507
+                  </p>
                 </div>
                 <div>
                   <Clock className="w-6 h-6 text-orange-600 mx-auto mb-2" />
                   <p className="font-semibold text-gray-800">Business Hours</p>
-                  <p className="text-sm text-gray-600">Mon-Sun: 6:00 AM - 10:00 PM</p>
+                  <p className="text-sm text-gray-600">Opens 24 hours</p>
                 </div>
                 <div>
                   <Phone className="w-6 h-6 text-orange-600 mx-auto mb-2" />
